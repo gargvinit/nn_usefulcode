@@ -1,0 +1,96 @@
+
+Question 5
+In the models trained in Question 4, which one gives the lowest training set cross entropy after 10 epochs ? [2 points]
+Model B .1 ->
+Average Training CE 2.933
+Finished Training.
+Final Training CE 2.933
+Final Validation CE 2.922
+Final Test CE 2.922
+Training took 450.52 seconds
+
+Model C 10 ->
+Average Training CE 3.330
+Finished Training.
+Final Training CE 3.330
+Final Validation CE 3.344
+Final Test CE 3.349
+Training took 459.21 seconds
+
+Model A .001
+Average Training CE 4.380
+Finished Training.
+Final Training CE 4.380
+Final Validation CE 4.382
+Final Test CE 4.388
+Training took 449.78 seconds
+
+Question 6
+Train each of following models:
+
+    Model A: 5 dimensional embedding, 100 dimensional hidden layer
+Average Training CE 2.813
+Finished Training.
+Final Training CE 2.813
+Final Validation CE 2.835
+Final Test CE 2.843
+Training took 245.45 seconds
+    Model B: 50 dimensional embedding, 10 dimensional hidden layer
+Average Training CE 2.999
+Finished Training.
+Final Training CE 2.999
+Final Validation CE 3.009
+Final Test CE 3.009
+Training took 204.50 seconds
+Model C: 50 dimensional embedding, 200 dimensional hidden layer
+Average Training CE 2.535
+Finished Training.
+Final Training CE 2.535
+Final Validation CE 2.607
+Final Test CE 2.613
+Training took 460.80 seconds
+    Model D: 100 dimensional embedding, 5 dimensional hidden layer
+Average Training CE 3.223
+Finished Training.
+Final Training CE 3.223
+Final Validation CE 3.229
+Final Test CE 3.224
+Training took 237.13 seconds
+
+Use default values for all other hyperparameters. Which model gives the best training set cross entropy after 10 epochs of training ? [3 points]
+Model A
+Model C
+Model B
+Model D
+Question 7
+In the models trained in Question 6, which one gives the best validation set cross entropy after 10 epochs of training ? [2 points]
+Model B
+Model D
+Model C
+Model A
+Question 8
+Train three models each with 50 dimensional embedding space, 200 dimensional hidden layer.
+
+    Model A: Momentum = 0.0
+Average Training CE 3.988
+Finished Training.
+Final Training CE 3.988
+Final Validation CE 3.948
+Final Test CE 3.951
+Training took 231.73 seconds
+
+    Model B: Momentum = 0.5
+Average Training CE 3.322
+Finished Training.
+Final Training CE 3.322
+Final Validation CE 3.251
+Final Test CE 3.249
+Training took 232.01 seconds
+
+    Model C: Momentum = 0.9
+
+Use the default settings for all other hyperparameters. Which model gives the lowest training set cross entropy after 5 epochs ? [3 points]
+Model B
+Model A
+Model C
+
